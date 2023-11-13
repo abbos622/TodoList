@@ -1,0 +1,43 @@
+.adder__form {
+    display: flex;
+    width: 100%;
+    align-items: flex-end;
+    padding: 16px 24px;
+    width: 100%;
+    button {
+        height: 35px;
+        padding: 0 20px;
+        display: flex;
+        align-items: center;
+        border: none;
+        background: rgb(0, 255, 42);
+        font-size: 18px;
+    }
+}
+
+.adder__title {
+    padding-top: 20px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Teko', sans-serif;
+}
+
+.adder__wrapper {
+    flex: 1;
+    label {
+        display: block;
+        font-size: 18px;
+        font-family: 'Teko', sans-serif;
+        color: #fff;
+    }
+    input {
+        width: 100%;
+        height: 35px;
+        font-size: 20px;
+        border: none;
+        text-indent: 10px;
+        &:focus {
+            outline: none;
+        }
+    }
+}
